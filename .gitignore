@@ -6,6 +6,9 @@ __pycache__/
 # C extensions
 *.so
 
+# Selenium geckodriver logs
+geckodriver.log
+
 # Distribution / packaging
 .Python
 build/
