@@ -10,7 +10,7 @@ app, api = server.app, server.api
 @api.route('/empresaFacil')
 class Empresa_facil(Resource):
     def post(self):
-        # como pegar o body?
+        # como pegar o body??
         x = api.payload
 
         return x
